@@ -1,0 +1,22 @@
+{
+  "name": "logproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowenliang123/LogProxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bowenliang123/LogProxy/issues"
+  },
+  "homepage": "https://github.com/bowenliang123/LogProxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.14.0"
+  }
+}

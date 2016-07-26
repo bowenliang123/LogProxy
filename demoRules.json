@@ -1,0 +1,148 @@
+{
+  "globalParams": [
+    {
+      "key": "sessionid",
+      "desc": "UV统计字段"
+    },
+    {
+      "key": "entry",
+      "desc": "入口渠道"
+    },
+    {
+      "key": "ismini",
+      "desc": "是否 Mini"
+    },
+    {
+      "key": "isuc",
+      "desc": "是否uc"
+    }
+  ],
+  "visitor": {
+    "key": "sessionid"
+  },
+  "testCases": [
+    {
+      "page": "low",
+      "desc": "访问日志",
+      "type": "visit",
+      "outputor": "backend",
+      "value": "low",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "low",
+      "desc": "点击GP下载",
+      "type": "click",
+      "outputor": "frontend",
+      "value": "gp",
+      "customFields": [
+        {
+          "name": "pos",
+          "val": "",
+          "desc": "点击位置"
+        }
+      ]
+    },
+    {
+      "page": "low",
+      "desc": "点击APK下载",
+      "type": "click",
+      "outputor": "frontend",
+      "value": "apk",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "low",
+      "desc": "点击规则",
+      "type": "click",
+      "outputor": "frontend",
+      "value": "low_rule",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "high",
+      "desc": "访问日志",
+      "type": "visit",
+      "outputor": "backend",
+      "value": "high",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "high",
+      "desc": "点击Enter按钮",
+      "type": "click",
+      "outputor": "frontend",
+      "value": "enter",
+      "customFields": [
+        {
+          "name": "click_time",
+          "val": "",
+          "desc": "点击时间"
+        },
+        {
+          "name": "user",
+          "val": "",
+          "desc": "用户名"
+        }
+      ]
+    },
+    {
+      "page": "high",
+      "desc": "点击规则",
+      "type": "click",
+      "outputor": "frontend",
+      "value": "hi_rule",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "high",
+      "desc": "点击Prize按钮",
+      "type": "click",
+      "outputor": "frontend",
+      "value": "prize",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "notmini",
+      "desc": "访问日志",
+      "type": "visit",
+      "outputor": "backend",
+      "value": "notmini",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "prize",
+      "desc": "访问日志",
+      "type": "visit",
+      "outputor": "backend",
+      "value": "prize",
+      "customFields": [
+
+      ]
+    },
+    {
+      "page": "rule",
+      "desc": "访问日志",
+      "type": "visit",
+      "outputor": "backend",
+      "value": "rule",
+      "customFields": [
+
+      ]
+    }
+  ]
+}
